@@ -17,6 +17,8 @@ body{
 
 .container{
     display: flex;
+    max-width: 550px;
+  background: linear-gradient(45deg, #0a0a0a, #9bb6ee);
     flex-direction: column;
     justify-content: center;
     align-items: center;
