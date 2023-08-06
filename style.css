@@ -8,7 +8,11 @@
 }
 
 body{
-    background-color: rgb(232, 238, 238);
+   
+      background: linear-gradient(45deg, #0a0a0a, #212c42);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .container{
@@ -99,4 +103,15 @@ ul li p{
 
 .editBtn{
     color: #008000;
+}
+.deleteBtn:active {
+
+  background-color: #79d19b;
+
+}
+
+.deleteBtn:hover {
+
+  background-color: #c6f0d6;
+  border-radius: 20px;
 }
